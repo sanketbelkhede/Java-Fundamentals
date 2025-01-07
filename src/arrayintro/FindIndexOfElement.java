@@ -35,7 +35,7 @@ public class FindIndexOfElement {
 		if(result>-1) {
 		System.out.println("Your element is present at index " + result);
 		}else {
-			System.out.println("Not Found.");
+			System.out.println("Not Found");
 		}
 
 	}
