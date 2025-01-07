@@ -13,7 +13,7 @@ public class ArrayPractise {
 		}
 		
 		for (int i=0; i<10; i++) {
-			System.out.println(age[i] + " ");
+			System.out.print(age[i] + " ");
 		}
 	}
 
