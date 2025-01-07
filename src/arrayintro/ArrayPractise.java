@@ -16,8 +16,6 @@ public class ArrayPractise {
 			System.out.print(age[i] + " ");
 		}
 		
-		System.out.println("Commited");
-
 	}
 
 }
