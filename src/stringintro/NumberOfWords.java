@@ -6,8 +6,15 @@ public class NumberOfWords {
 	
 	int WordsCount(String st) {
 		int spacecount = 0;
-		for(int i=0; i<st.length()-1; i++) {
-			if((st.charAt(i) == ' ') && Character.isLetter(st.charAt(i+1)) && (i>0)) {
+		int startIndex = 0;
+		while(startIndex<st.length()) {
+			if(st.charAt(startIndex) != ' ') {
+				break;
+			}
+			startIndex++;
+		}
+		for(int i=startIndex; i<st.length()-1; i++) {
+			if((st.charAt(i) == ' ') && Character.isLetter(st.charAt(i+1))) {
 				spacecount++;
 			}
 		}
