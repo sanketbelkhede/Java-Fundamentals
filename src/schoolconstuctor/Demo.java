@@ -15,8 +15,6 @@ public class Demo {
 	public static void main(String[] args) {
 //		Demo obj = new Demo();
 //		obj.display();
-		System.out.println(Character.isLetter(','));
-//		System.out.println(Character.is);
 	}
 	
 	void display() {
